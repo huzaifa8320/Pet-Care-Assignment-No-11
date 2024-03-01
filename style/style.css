@@ -48,6 +48,41 @@
     font-size: 18px;
     font-weight: bold;
 }
+.para3{
+    font-size: 15px;
+    color: #FD4C82;
+}
+.font-color-pink{
+    color: #FD4C82 !important;
+}
+.font-color-black{
+    color: black !important;
+}
+.font-color-gray{
+    color: #999999;
+}
+.hover-pink:hover{
+    color: #FD4C82 !important;
+    transition: 0.5s;
+}
+.hover-btn1:hover{
+    background-color: #ffff !important;
+    border: 1px solid #FD4C82;
+    color: #FD4C82;
+    transition: 0.5s;
+}
+.hover-btn2:hover{
+    background-color: #ffff !important;
+    border: 1px solid #FD4C82;
+    color: #FD4C82;
+    transition: 0.5s;
+}
+.hover-btn3:hover{
+    background-color: #ffff !important;
+    border: 1px solid #91C235;
+    color: #91C235;
+    transition: 0.5s;
+}
 .div3{
     background-color: #ffff;
 }
@@ -70,7 +105,7 @@
     background-color: #FD4C82;
     color: #ffff;
     font-weight: bold;
-    border: none;
+    border: 1px solid #FD4C82;
 }
 .div4{
     display: flex;
@@ -82,7 +117,7 @@
 }
 .btn2{
     background-color: #FD4C82;
-    border: none;
+    border: 1px solid #FD4C82;
     border-radius: 10px;
     color: #ffff;
     width: 35%;
@@ -95,7 +130,7 @@
 }
 .btn3{
     background-color: #91C235;
-    border: none;
+    border: 1px solid #91C235;
     border-radius: 10px;
     color: #ffff;
     width: 35%;
@@ -154,4 +189,11 @@
 .div6:hover .hed2{
     color: #ffff;
     
+}
+.img3{
+    width: 100%;
+    height: 100%;
+}
+.hed3{
+    font-weight: bolder;
 }
