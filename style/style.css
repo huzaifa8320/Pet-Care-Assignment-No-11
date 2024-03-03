@@ -6,20 +6,22 @@
 
 .main1 {
     background-image: url(../img/bg_1.jpg);
-    
+
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 100%;
     background-attachment: fixed;
-    
+
 }
-.div1{
+
+.div1 {
     width: 100%;
     height: 100%;
 }
+
 .border {
-    border: 5px solid black ;
+    border: 5px solid black;
 }
 
 .img1 {
@@ -48,74 +50,90 @@
     font-size: 18px;
     font-weight: bold;
 }
-.para3{
+
+.para3 {
     font-size: 15px;
     color: #FD4C82;
 }
-.font-color-pink{
+
+.font-color-pink {
     color: #FD4C82 !important;
 }
-.font-color-black{
+
+.font-color-black {
     color: black !important;
 }
-.font-color-gray{
+
+.font-color-gray {
     color: #999999;
 }
-.hover-pink:hover{
+
+.hover-pink:hover {
     color: #FD4C82 !important;
     transition: 0.5s;
 }
-.hover-btn1:hover{
+
+.hover-btn1:hover {
     background-color: #ffff !important;
     border: 1px solid #FD4C82;
     color: #FD4C82;
     transition: 0.5s;
 }
-.hover-btn2:hover{
+
+.hover-btn2:hover {
     background-color: #ffff !important;
     border: 1px solid #FD4C82;
     color: #FD4C82;
     transition: 0.5s;
 }
-.hover-btn3:hover{
+
+.hover-btn3:hover {
     background-color: #ffff !important;
     border: 1px solid #91C235;
     color: #91C235;
     transition: 0.5s;
 }
-.div3{
+
+.div3 {
     background-color: #ffff;
 }
-@media(max-width:992px){
-    .div3{
+
+@media(max-width:992px) {
+    .div3 {
         background: none;
     }
 }
-@media(min-width:992px){
-    .hed1{
-        font-size: 55px ;
+
+@media(min-width:992px) {
+    .hed1 {
+        font-size: 55px;
         font-weight: bolder;
     }
 }
-.para4{
+
+.para4 {
     color: #B1B1B2;
     text-align: justify;
 }
-.btn1{
+
+.btn1 {
     background-color: #FD4C82;
     color: #ffff;
     font-weight: bold;
     border: 1px solid #FD4C82;
 }
-.div4{
+
+.div4 {
     display: flex;
     gap: 15px;
 }
-.para5{
+
+.para5 {
     font-size: 20px;
     color: black;
 }
-.btn2{
+
+.btn2 {
     background-color: #FD4C82;
     border: 1px solid #FD4C82;
     border-radius: 10px;
@@ -123,12 +141,14 @@
     width: 35%;
     height: 55px;
 }
-@media(max-width:992px){
-    .btn2{
+
+@media(max-width:992px) {
+    .btn2 {
         width: 60%;
     }
 }
-.btn3{
+
+.btn3 {
     background-color: #91C235;
     border: 1px solid #91C235;
     border-radius: 10px;
@@ -136,13 +156,15 @@
     width: 35%;
     height: 55px;
 }
-@media(max-width:992px){
-    .btn3{
+
+@media(max-width:992px) {
+    .btn3 {
         width: 60%;
         margin-top: 10px;
     }
 }
-.div5{
+
+.div5 {
     width: 95px;
     /* width: 30%; */
     height: 80px;
@@ -151,19 +173,23 @@
     border-radius: 50%;
     padding: 15px;
 }
-@media(max-width:320px){
-    .div5{
+
+@media(max-width:320px) {
+    .div5 {
         width: 120px;
     }
 }
-.img2{
+
+.img2 {
     width: 100%;
     height: 100%;
 }
-.para6{
+
+.para6 {
     color: #A9A9A9;
 }
-.div6{
+
+.div6 {
     width: 100%;
     height: 100%;
     padding: 35px;
@@ -171,29 +197,93 @@
     background-color: #ffff;
     border: none;
     border-radius: 5px;
-    box-shadow: 0px 0px  30px 10px  #E3E2E5;
+    box-shadow: 0px 0px 30px 10px #E3E2E5;
     position: relative;
     top: -80px;
 }
-.hed2{
+
+.hed2 {
     color: black;
 }
-.div6:hover{
+
+.div6:hover {
     background-color: #FD4C82;
     transition: 0.5s;
 }
-.div6:hover .para6{
+
+.div6:hover .para6 {
     color: #ffff;
 
 }
-.div6:hover .hed2{
+
+.div6:hover .hed2 {
     color: #ffff;
-    
+
 }
-.img3{
+
+.img3 {
     width: 100%;
     height: 100%;
 }
-.hed3{
+
+.hed3 {
     font-weight: bolder;
+}
+
+.div7 {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #FD4C82;
+}
+
+.img4 {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.para7 {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.div8 {
+    display: flex;
+    align-items: center;
+}
+
+.main2 {
+    background-color: #F8F9FA;
+}
+
+.main3 {
+    background-color: #F8F9FA;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.div9 {
+    width: 100%;
+    height: 60px;
+
+}
+
+.input1 {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+.btn4{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #91C235;
+    color: #ffff;
+    border: none;
 }
