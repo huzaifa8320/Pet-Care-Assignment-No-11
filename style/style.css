@@ -481,4 +481,40 @@
 }
 .para15{
     width: 80px;
+    /* width: 40px; */
+}
+.div28{
+    font-size: 12px;
+    font-weight: bold;
+}
+.para16{
+    font-size: 17px;
+    font-weight: bold;
+}
+.para17{
+    font-size: 17px;
+    font-weight: bold;
+    color: #999999;
+}
+.div29{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 45px;
+}
+.btn6{
+    background-color: #FD4C82;
+    color: #ffff;
+    border-radius: 5px;
+    padding: 7px;
+    width: 120px;
+    border: none;
+}
+.btn6:hover{
+    background-color: #ffff;
+    border: 1px solid #FD4C82;
+    color: #FD4C82;
+    transition: 0.5s;
+}
+.div30{
+    background-color: #ffff;
 }
